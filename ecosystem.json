@@ -1,0 +1,26 @@
+{
+  "apps" : [{
+    "name"      : "website",
+    "script"    : "index.js",
+    "env": {
+      "COMMON_VARIABLE": "true"
+    },
+    "env_production" : {
+      "NODE_ENV": "production"
+    }
+  }],
+  "deploy" : {
+    "production" : {
+      "user" : "zpaaa",
+      "host" : ["116.85.37.223"],
+      "port" :8081,
+      "ref"  : "origin/master",
+      "repo" : "git@github.com:zpaaa/zpaaa.github.io.git",
+      "path" : "/home/zpaaa/website",
+      "ssh_options": "StrictHostKeyChecking=no",
+      "env"  : {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
