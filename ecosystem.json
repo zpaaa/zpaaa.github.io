@@ -13,7 +13,7 @@
     "production" : {
       "user" : "zpaaa",
       "host" : ["116.85.37.223"],
-      "port" :8081,
+      "port" :8080,
       "ref"  : "origin/master",
       "repo" : "git@github.com:zpaaa/zpaaa.github.io.git",
       "path" : "/home/zpaaa/website",
