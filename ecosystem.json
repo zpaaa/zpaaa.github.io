@@ -1,7 +1,7 @@
 {
   "apps" : [{
     "name"      : "website",
-    "script"    : "index.js",
+    "script"    : "index.html",
     "env": {
       "COMMON_VARIABLE": "true"
     },
